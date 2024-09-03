@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { Button } from "../components";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 export function HomePage(): ReactElement {
