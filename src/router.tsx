@@ -2,7 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route } from "react-rout
 import { App } from "./components";
 import { AboutPage, HomePage, JoinUsPage } from "./pages";
 
-// router built with object:
+// router built as object:
 export const router = createBrowserRouter([
 	{
 		element: <App />,
@@ -25,7 +25,7 @@ export const router = createBrowserRouter([
 	},
 ]);
 
-// router built with JSX elements:
+// router built with JSX elements: (I like this one more)
 export const routerWithJSX = createBrowserRouter(
 	createRoutesFromElements(
 		<Route element={<App />} path="">
